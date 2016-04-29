@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Bootstrap</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sec">Sec</string>
+    <string name="ui_button">Button</string>
+    <string name="ui_name_hint">请输入用户名</string>
+    <string name="ui_pwd_hint">请输入密码</string>
+    <string name="ui_name_text">用户名</string>
+    <string name="ui_pwd_text">密码</string>
+    <string name="ui_rpwd_text">重复密码</string>
+    <string name="goto_login">没有注册？ 去注册-></string>
+    <string name="login">登录</string>
+    <string name="signup">注册</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="logout_btn">登出</string>
+    <string name="back">返回</string>
+</resources>

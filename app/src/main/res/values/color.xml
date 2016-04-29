@@ -1,0 +1,5 @@
+<resources>
+    <color name="transparent">#0000</color>
+    <color name="tab_selected">#fff</color>
+    <color name="tab_border_bottom">#ff009688</color>
+</resources>

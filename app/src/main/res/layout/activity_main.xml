@@ -1,0 +1,48 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+    <!--<TextView-->
+        <!--android:text="@string/hello_world"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/toolbar"-->
+        <!--android:id="@+id/hello_world"-->
+        <!--android:gravity="center"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_below="@+id/hello_world"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Button"-->
+        <!--android:id="@+id/button"-->
+        <!--android:background="?attr/colorPrimaryDark"/>-->
+    <!--<Button-->
+        <!--android:layout_below="@+id/button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Button"-->
+        <!--android:id="@+id/uibutton"-->
+        <!--android:background="?attr/colorPrimaryDark"/>-->
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabs"
+        android:background="?attr/colorPrimary"
+        android:layout_below="@+id/toolbar"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewpager"
+        android:layout_below="@+id/tabs"/>
+</RelativeLayout>
